@@ -4,5 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `Acessar Projeto`
 
-[Link do Projeto no Netlify](https://adomi-selecao.netlify.app/).
+Projeto feito em React[Link do Projeto no Netlify](https://adomi-selecao.netlify.app/).
+
+
 
