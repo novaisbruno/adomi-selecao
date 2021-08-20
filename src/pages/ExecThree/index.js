@@ -85,7 +85,6 @@ export default function Exec(){
                         retorne a soma dos valores do array.
                      </p>
                     <button onClick={handleSomar} >Somar</button>
-
                 </Resultado>
             }
 
