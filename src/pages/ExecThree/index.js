@@ -4,7 +4,7 @@ import {Container, Form, Resultado} from './style';
 
 export default function Exec(){
     
-    const [valorFib, setValorFib] = useState(0);
+    const [valorFib, setValorFib] = useState(null);
     const [execDes, setExecDes] = useState(false);
     const [somaDes, setSomaDes] = useState(false);
     const [desafio, setDesafio] = useState(false);
@@ -18,12 +18,12 @@ export default function Exec(){
 
             setSomaDes(false);
             setDesafio(false);
-            setListFib([]);
+            setListFib(null);
 
             var seq = [];
             var back = 0;
             var atual = 1;
-            var next = 1;
+            var next = 0;
 
             for(let i = 0; i<valorFib; i++){
                 seq.push(next);
