@@ -33,7 +33,7 @@ export default function Exec(){
             }
             
             setExecDes(true);
-            setValorFib(0);
+            setValorFib(null);
             setListFib(seq);    
         }
     }, [valorFib])
@@ -68,7 +68,7 @@ export default function Exec(){
             <Form  onSubmit={handleSubmit}>
                 <input 
                     type="number" 
-                    placeholder="Digite um valor para a função" 
+                    placeholder="Termo" 
                     value={valorFib}
                     onChange={(e)=>setValorFib(e.target.value)}
                 />
